@@ -17,7 +17,7 @@ func getOptions() (*options, error) {
 	if err != nil {
 		return nil, err
 	}
-	return options, err
+	return options, nil
 }
 
 func main() {
