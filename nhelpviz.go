@@ -67,6 +67,6 @@ type Step struct {
 }
 
 func parseNHELP(inputFile string) Step {
-  // no implementation
-  return Step{routine: BUILD1}
+	// no implementation
+	return Step{routine: BUILD1}
 }
